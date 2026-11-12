@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/q6q/proprietary/vendor/etc/display/qdcm_calib_data_Q6_S6E3FAE_AMB625GR01.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Q6_S6E3FAE_AMB625GR01.json \
     vendor/samsung/q6q/proprietary/vendor/etc/display/qdcm_calib_data_Q6_S6E3XA5_AMF761GQ01.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Q6_S6E3XA5_AMF761GQ01.json \
     vendor/samsung/q6q/proprietary/vendor/etc/displayconfig/display_layout_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_layout_configuration.xml \
+    vendor/samsung/q6q/proprietary/vendor/etc/input-port-associations.xml:$(TARGET_COPY_OUT_VENDOR)/etc/input-port-associations.xml \
     vendor/samsung/q6q/proprietary/vendor/etc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
     vendor/samsung/q6q/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/samsung/q6q/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf \

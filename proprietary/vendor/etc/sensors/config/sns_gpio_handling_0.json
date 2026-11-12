@@ -1,0 +1,21 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM"],
+    "soc_id": ["557"]
+  },
+  "gpio_handle_0_platform":{
+    "owner": "gpio_handle",
+     ".gpio_handle":{
+      "owner": "gpio_handle",
+      ".config":{
+        "owner": "gpio_handle",
+        "interrupt_num":{ "type": "flt", "ver": "0",
+            "data": "195"
+        },
+        "gpio_delay":{ "type": "flt", "ver": "0",
+            "data": "50"
+        }
+      }
+    }
+  }
+}

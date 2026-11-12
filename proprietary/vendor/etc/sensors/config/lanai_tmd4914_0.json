@@ -1,0 +1,358 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP"],
+    "soc_id": ["557"]
+  },
+  "tmd4914_0":{
+    "owner": "sns_tmd4914",
+    ".als":{
+      "owner": "sns_tmd4914",
+      ".config":{
+        "owner": "sns_tmd4914",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".prox":{
+      "owner": "sns_tmd4914",
+      ".config":{
+        "owner": "sns_tmd4914",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "tmd4914_0_platform":{
+    "owner": "sns_tmd4914",
+    ".config":{
+      "owner": "sns_tmd4914",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "57"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "2"	
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/dummy_vdd"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/dummy_vdd"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".als":{
+      "owner": "sns_tmd4914",
+      ".fac_cal":{
+        "owner": "sns_tmd4914",
+        "scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        }
+          },
+          ".custom_cal":{
+              "owner": "sns_tmd4914",
+              "als_ch0_coeff_0":{ "type": "flt", "ver": "0",
+                                  "data": "1"
+                                },
+              "als_ch1_coeff_0":{ "type": "flt", "ver": "0",
+                                  "data": "-0.351"
+                                },
+              "als_dgf":{ "type": "flt", "ver": "0",
+                          "data": "29.43"
+                        }
+          },
+          ".def_config":{
+              "owner": "sns_tmd4914",
+              "gain_index_0":{ "type": "flt", "ver": "0",
+                         "data": "6"
+                       },
+              "gain_index_1":{ "type": "flt", "ver": "0",
+                         "data": "6"
+                       },
+              "nr_of_samples":{ "type": "flt", "ver": "0",
+                         "data": "100.0"
+                       },
+              "nr_of_raw_samples":{ "type": "flt", "ver": "0",
+                              "data": "208.0"
+                            },
+              "sample_time_us":{ "type": "flt", "ver": "0",
+                               "data": "200.0"
+                             },
+              "fifo_threshold":{ "type": "flt", "ver": "0",
+                               "data": "832"
+                             },
+              "wtime":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "apers":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "trigger_mode":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "thrs_halfwidth":{ "type": "flt", "ver": "0",
+                               "data": "10.0"
+                             },
+              "up_limit_percent":{ "type": "flt", "ver": "0",
+                               "data": "95.0"
+                             },
+              "low_limit_percent":{ "type": "flt", "ver": "0",
+                               "data": "5.0"
+                             },
+              "autogain_enable":{ "type": "flt", "ver": "0",
+                                   "data": "1.0"
+                                 },
+              "single_shot":{ "type": "flt", "ver": "0",
+                                   "data": "1.0"
+                                 },
+              "in_fifo":{ "type": "flt", "ver": "0",
+                                   "data": "0.0"
+                                 },
+              "in_coherence":{ "type": "flt", "ver": "0",
+                                   "data": "1.0"
+                                 },
+              "fifo_fast_read":{ "type": "flt", "ver": "0",
+                                   "data": "1.0"
+                                 },
+              "timeout_us":{ "type": "flt", "ver": "0",
+                               "data": "35719.0"
+                             },
+              "emulation_frequency_hz":{ "type": "flt", "ver": "0",
+                                   "data": "60.0"
+                                 },
+              "repetition_period_us":{ "type": "flt", "ver": "0",
+                                   "data": "0.0"
+                                 },
+              "ignore_period_us":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "target_frequency_hz":{ "type": "flt", "ver": "0",
+                               "data": "60.0"
+                             },
+              "osc_cal_mode":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "osc_tune":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "vsync_enable":{ "type": "flt", "ver": "0",
+                                   "data": "1.0"
+                                 },
+              "emulation_mode":{ "type": "flt", "ver": "0",
+                                   "data": "0.0"
+                                 },
+              "vsync_delay_us":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "samples_per_period":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "nr_of_samples2":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "sample_offset":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "sample_offset2":{ "type": "flt", "ver": "0",
+                               "data": "0.0"
+                             },
+              "periods_per_frame":{ "type": "flt", "ver": "0",
+                                   "data": "0.0"
+                                 },
+              "frame_correction_samples":{ "type": "flt", "ver": "0",
+                                   "data": "0.0"
+                                 },
+              "skip_sum_reset":{ "type": "flt", "ver": "0",
+                                   "data": "0.0"
+                                 },
+              "first_sample_time_us":{ "type": "flt", "ver": "0",
+                                   "data": "0.0"
+                                 },
+              "debug_enable":{ "type": "flt", "ver": "0",
+                                   "data": "1.0"
+                                 }
+          },
+          ".cal_target":{
+              "owner": "sns_tmd4914",
+              "lux_cal_target":{ "type": "flt", "ver": "0",
+                                 "data": "300.0"
+                               },
+              "lux_cal_target_tolerance":{ "type": "flt", "ver": "0",
+                                           "data": "20.0"
+                                         }
+          }
+      },
+    ".prox":
+    {
+      "owner": "sns_tmd4914",
+       ".fac_cal":
+       {
+        "owner": "sns_tmd4914",
+        "near_threshold":{ "type": "flt", "ver": "0",
+                           "data": "12360.0"
+                         },
+        "far_threshold":{ "type": "flt", "ver": "0",
+                          "data": "4535.0"
+                        },
+       },
+       ".def_config":
+       {
+         "owner": "sns_tmd4914",
+         "delay":{ "type": "flt", "ver": "0",
+                     "data": "3686.0"
+                   },
+         "low_thresh":{ "type": "flt", "ver": "0",
+                     "data": "180.0"
+                   },
+         "high_thresh":{ "type": "flt", "ver": "0",
+                     "data": "200.0"
+                   },
+         "sample_time_us":{ "type": "flt", "ver": "0",
+                    "data": "99.0"
+                  },
+         "pnum":{ "type": "flt", "ver": "0",
+                      "data": "0.0"
+                    },
+         "gain1":{ "type": "flt", "ver": "0",
+                      "data": "5.0"
+                    },
+         "gain2":{ "type": "flt", "ver": "0",
+                         "data": "0.0"
+                       },
+         "delay_mode":{ "type": "flt", "ver": "0",
+                         "data": "0.0"
+                       },
+         "trigger_mode":{ "type": "flt", "ver": "0",
+                          "data": "5.0"
+                        },
+         "ptime":{ "type": "flt", "ver": "0",
+                         "data": "0.0"
+                       },
+         "ppers":{ "type": "flt", "ver": "0",
+                         "data": "0.0"
+                       },
+         "sum_filter_en":{ "type": "flt", "ver": "0",
+                         "data": "0.0"
+                       },
+         "filter_size":{ "type": "flt", "ver": "0",
+                          "data": "0.0"
+                        },
+         "cst_enable":{ "type": "flt", "ver": "0",
+                          "data": "0.0"
+                        },
+         "sample_offset_us":{ "type": "flt", "ver": "0",
+                         "data": "0.0"
+                       },
+         "sample_offset2_us":{ "type": "flt", "ver": "0",
+                         "data": "0.0"
+                       },
+         "sample_delay_us":{ "type": "flt", "ver": "0",
+                          "data": "5.0"
+                        },
+         "sample_delay2_us":{ "type": "flt", "ver": "0",
+                         "data": "0.0"
+                       },
+         "delay_per_period":{ "type": "flt", "ver": "0",
+                         "data": "1.0"
+                       },
+         "pulse_sum_cnt":{ "type": "flt", "ver": "0",
+                         "data": "0.0"
+                       }
+       }
+    },
+        ".placement":{
+            "owner": "sns_tmd4914",
+            "0":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "1":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "2":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "3":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "4":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "5":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "6":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "7":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "8":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "9":{ "type": "flt", "ver": "0",
+                  "data": "0.0"
+                },
+            "10":{ "type": "flt", "ver": "0",
+                   "data": "0.0"
+                 },
+            "11":{ "type": "flt", "ver": "0",
+                   "data": "0.0"
+                 }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM"],
+    "soc_id": ["557"]
+  },
+  "lidangle_0_platform":{
+    "owner": "lidangle",
+    ".orient":{
+      "owner": "lidangle",
+      "x":{ "type": "str", "ver": "0",
+        "data": "+y"
+      },
+      "y":{ "type": "str", "ver": "0",
+        "data": "+x"
+      },
+      "z":{ "type": "str", "ver": "0",
+        "data": "-z"
+      }
+    },
+    ".lidangle":{
+      "owner": "lidangle",
+      ".config":{
+        "owner": "lidangle",
+        "upright_angle":{ "type": "flt", "ver": "0",
+            "data": "15.0"
+        },
+        "orient":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+       "key_board_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "max_angle":{ "type": "flt", "ver": "0",
+            "data": "180.0"
+        },
+        "use_sflp":{ "type": "int", "ver": "0",
+            "data": "1"
+        },
+        "enable_aswa":{ "type": "int", "ver": "0",
+		    "data": "1"
+        },
+        "flip_x_0":{ "type": "int", "ver": "0",
+		    "data": "0" 
+        },
+        "flip_x_1":{ "type": "int", "ver": "0",
+		    "data": "0" 
+        },
+        "flip_y_0":{ "type": "int", "ver": "0",
+		    "data": "0" 
+        },
+        "flip_y_1":{ "type": "int", "ver": "0",
+		    "data": "0" 
+        },
+        "stuck_ths":{ "type": "flt", "ver": "0",
+		    "data": "15.9"
+        },
+        "stuck_t":{ "type": "flt", "ver": "0",
+		    "data": "1.0"
+        }
+      }
+    }
+  }
+}

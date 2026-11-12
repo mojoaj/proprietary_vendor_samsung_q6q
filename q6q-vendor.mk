@@ -14,10 +14,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/q6q/proprietary/vendor/etc/acdbdata/pineapple/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pineapple/workspaceFileXml.qwsp \
     vendor/samsung/q6q/proprietary/vendor/etc/audio/sku_pineapple/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/mixer_paths.xml \
     vendor/samsung/q6q/proprietary/vendor/etc/audio/sku_pineapple/resourcemanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/resourcemanager.xml \
-    vendor/samsung/q6q/proprietary/vendor/etc/devicestate/device_state_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/devicestate/device_state_configuration.xml \
     vendor/samsung/q6q/proprietary/vendor/etc/display/qdcm_calib_data_Q6_S6E3FAE_AMB625GR01.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Q6_S6E3FAE_AMB625GR01.json \
     vendor/samsung/q6q/proprietary/vendor/etc/display/qdcm_calib_data_Q6_S6E3XA5_AMF761GQ01.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Q6_S6E3XA5_AMF761GQ01.json \
-    vendor/samsung/q6q/proprietary/vendor/etc/displayconfig/display_layout_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_layout_configuration.xml \
     vendor/samsung/q6q/proprietary/vendor/etc/input-port-associations.xml:$(TARGET_COPY_OUT_VENDOR)/etc/input-port-associations.xml \
     vendor/samsung/q6q/proprietary/vendor/etc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
     vendor/samsung/q6q/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \

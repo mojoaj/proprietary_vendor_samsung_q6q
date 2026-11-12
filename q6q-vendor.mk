@@ -218,7 +218,4 @@ PRODUCT_PACKAGES += \
     libTsAwbFront_Q6 \
     libTsAwb_Q6 \
     libarcsoft_udc_enhancement \
-    libtriplecam_image_optical_zoom \
-    libtriplecam_optical_zoom_control \
-    libtriplecam_video_optical_zoom \
     libudc_core.camera.samsung

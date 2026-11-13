@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/q6q/proprietary/vendor/etc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
     vendor/samsung/q6q/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/samsung/q6q/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf \
+    vendor/samsung/q6q/proprietary/vendor/etc/plmn_se13_prebuilt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13_prebuilt.bin \
     vendor/samsung/q6q/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/samsung/q6q/proprietary/vendor/etc/secnvm/k250a_47000400_0.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000400_0.img \
     vendor/samsung/q6q/proprietary/vendor/etc/secnvm/k250a_47000403_1.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000403_1.img \

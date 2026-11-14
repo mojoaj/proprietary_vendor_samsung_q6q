@@ -12,8 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/q6q/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/q6q/proprietary/vendor/etc/acdbdata/pineapple/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pineapple/acdb_cal.acdb \
     vendor/samsung/q6q/proprietary/vendor/etc/acdbdata/pineapple/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pineapple/workspaceFileXml.qwsp \
-    vendor/samsung/q6q/proprietary/vendor/etc/audio/sku_pineapple/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/mixer_paths.xml \
-    vendor/samsung/q6q/proprietary/vendor/etc/audio/sku_pineapple/resourcemanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/resourcemanager.xml \
     vendor/samsung/q6q/proprietary/vendor/etc/display/qdcm_calib_data_Q6_S6E3FAE_AMB625GR01.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Q6_S6E3FAE_AMB625GR01.json \
     vendor/samsung/q6q/proprietary/vendor/etc/display/qdcm_calib_data_Q6_S6E3XA5_AMF761GQ01.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Q6_S6E3XA5_AMF761GQ01.json \
     vendor/samsung/q6q/proprietary/vendor/etc/input-port-associations.xml:$(TARGET_COPY_OUT_VENDOR)/etc/input-port-associations.xml \

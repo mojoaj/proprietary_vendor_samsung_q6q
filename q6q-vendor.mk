@@ -130,8 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/q6q/proprietary/vendor/firmware/tismartpa_driver_tuning.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tismartpa_driver_tuning.bin \
     vendor/samsung/q6q/proprietary/vendor/firmware/tsp_stm/fst2ca78y_q6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fst2ca78y_q6.bin \
     vendor/samsung/q6q/proprietary/vendor/firmware/tsp_stm/fst3ca60y_q6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fst3ca60y_q6.bin \
-    vendor/samsung/q6q/proprietary/vendor/firmware/uwb/libsr200t_dev_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uwb/libsr200t_dev_fw.bin \
-    vendor/samsung/q6q/proprietary/vendor/firmware/uwb/libsr200t_prod_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/uwb/libsr200t_prod_fw.so \
     vendor/samsung/q6q/proprietary/vendor/firmware/vl53l8.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vl53l8.bin \
     vendor/samsung/q6q/proprietary/vendor/firmware/vpu30_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_2v.mbn \
     vendor/samsung/q6q/proprietary/vendor/firmware/vpu30_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_2v_unsigned.mbn \
